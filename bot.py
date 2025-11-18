@@ -1,4 +1,4 @@
-# bot.py
+
 import os
 import discord
 from discord.ext import commands
@@ -76,4 +76,5 @@ if not DISCORD_TOKEN:
     raise SystemExit("DISCORD_TOKEN not set")
 
 bot.run(DISCORD_TOKEN)
+
 
